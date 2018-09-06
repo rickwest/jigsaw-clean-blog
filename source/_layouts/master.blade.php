@@ -8,5 +8,6 @@
     </head>
     <body>
         @yield('body')
+        <script src="{{ mix('js/main.js', 'assets/build') }}" type="text/javascript"></script>
     </body>
 </html>
