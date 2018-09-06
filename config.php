@@ -3,5 +3,6 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'collections' => [],
+    'author' => 'Rick West',
+    'collections' => ['posts'],
 ];
