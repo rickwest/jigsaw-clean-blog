@@ -7,15 +7,15 @@ return [
     'collections' => ['posts'],
     'socials' => [
         'twitter' => [
-            'link' => '#',
+            'link' => 'https://twitter.com/rick_west8',
             'icon' => 'fab fa-twitter',
         ],
-        'facebook' => [
-            'link' => '#',
-            'icon' => 'fab fa-facebook-f',
+        'medium' => [
+            'link' => 'https://medium.com/@rickwest8 ',
+            'icon' => 'fab fa-medium',
         ],
         'github' => [
-            'link' => '#',
+            'link' => 'https://github.com/rickwest',
             'icon' => 'fab fa-github',
         ],
     ]
