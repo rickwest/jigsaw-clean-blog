@@ -19,5 +19,6 @@ return [
             'icon' => 'fab fa-github',
         ],
     ],
-    'perPage' => 5 // Number of collection items to show per page
+    'perPage' => 5, // Number of collection items to show per page
+    'email' => 'rickwestdev@gmail.com', // The email address to send contact form submissions to.
 ];
