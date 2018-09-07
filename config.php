@@ -18,5 +18,6 @@ return [
             'link' => 'https://github.com/rickwest',
             'icon' => 'fab fa-github',
         ],
-    ]
+    ],
+    'perPage' => 5 // Number of collection items to show per page
 ];

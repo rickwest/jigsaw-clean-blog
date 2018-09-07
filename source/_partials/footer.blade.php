@@ -15,6 +15,7 @@
                     @endforeach
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+                <p class="copyright text-muted"><small>This website is powered by the awesome <a href="https://jigsaw.tighten.co/" target="_blank">Jigsaw</a> and kindly hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. Get the source code on <a href="https://github.com/rickwest/jigsaw-clean-blog" target="_blank">Github</a></small></p>
             </div>
         </div>
     </div>

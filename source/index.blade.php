@@ -1,3 +1,8 @@
+---
+pagination:
+    collection: posts
+---
+
 @extends('_layouts.master')
 
 @section('body')
@@ -5,7 +10,7 @@
     @include('_partials.navigation')
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('assets/images/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('/assets/images/home-bg.jpg')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -23,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                @foreach ($posts as $post)
+                @foreach ($pagination->items as $post)
                     <div class="post-preview">
                         <a href="{{ $post->getPath() }}">
                             <h2 class="post-title">
@@ -40,8 +45,14 @@
 
                 <!-- Pager -->
                 <div class="clearfix">
-                    <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+                    @if ($previous = $pagination->previous)
+                        <a class="btn btn-primary float-left" href="{{ $page->baseUrl }}{{ $previous }}">&larr; Newer Posts</a>
+                    @endif
+                    @if ($next = $pagination->next)
+                        <a class="btn btn-primary float-right" href="{{ $page->baseUrl }}{{ $next }}">Older Posts &rarr;</a>
+                    @endif
                 </div>
+
             </div>
         </div>
     </div>
