@@ -3,7 +3,7 @@ extends: _layouts.post
 image: /assets/images/pulp-fiction.jpg
 title: Are you ready for the truth?
 subtitle: Now that there is the Tec-9, a crappy spray gun from South Miami.
-date: August 24, 2018
+date: 2018-02-16
 section: content
 ---
 

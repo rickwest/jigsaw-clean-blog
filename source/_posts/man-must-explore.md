@@ -3,7 +3,7 @@ extends: _layouts.post
 image: /assets/images/post-bg.jpg
 title: Man must explore, and this is exploration at its greatest
 subtitle: Problems look mighty small from 150 miles up
-date: August 24, 2018
+date: 2018-09-09
 section: content
 ---
 

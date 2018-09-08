@@ -3,14 +3,12 @@ extends: _layouts.post
 image: /assets/images/pulp-fiction.jpg
 title: I'm serious as a heart attack
 subtitle: The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men.
-date: August 24, 2018
+date: 2017-10-21
 section: content
 ---
 
-<h2 class="section-heading">Are you ready for the truth?</h2>
 Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
 
-<h2 class="section-heading">No man, I don't eat pork</h2>
 Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. 
 
 <h2 class="section-heading">Hold on to your butts</h2>

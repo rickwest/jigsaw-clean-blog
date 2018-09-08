@@ -3,7 +3,7 @@ extends: _layouts.post
 image: /assets/images/pulp-fiction.jpg
 title: Failure is not an option
 subtitle: You think water moves fast? You should see ice.
-date: August 24, 2018
+date: 2018-04-10
 section: content
 ---
 

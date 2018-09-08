@@ -2,7 +2,7 @@
 extends: _layouts.post
 image: /assets/images/pulp-fiction.jpg
 title: Is she dead, yes or no?
-date: August 24, 2018
+date: 2018-02-16
 section: content
 ---
 
@@ -20,7 +20,6 @@ Well, the way they make shows is, they make one show. That show's called a pilot
 
 Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
 
-<h2 class="section-heading">I can do that</h2>
 Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
 
 Motherfucking placeholder text by [Samuel L. Ipsum](https://slipsum.com/). [Design Credits: Vecteezy](https://vecteezy.com)
