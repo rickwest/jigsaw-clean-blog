@@ -20,5 +20,6 @@ return [
         ],
     ],
     'perPage' => 5, // Number of collection items to show per page
-    'email' => 'rickwestdev@gmail.com', // The email address to send contact form submissions to.
+    'email' => 'rickwestdev@gmail.com', // The email address to send contact form submissions to
+    'siteName' => 'Start Bootstrap' // The name of the site. This is used in the nav and footer
 ];
