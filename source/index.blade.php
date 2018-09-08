@@ -16,8 +16,8 @@ pagination:
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                        <h1>Jigsaw Clean Blog</h1>
+                        <span class="subheading">A Jigsaw implementation of a blog theme by Start Bootstrap</span>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ pagination:
                                 {{ $post->subtitle }}
                             </h3>
                         </a>
-                        <p class="post-meta">Posted by {{ $post->author ? $post->author : $page->author }} on {{ $post->date }}</p>
+                        <p class="post-meta">Posted on {{ $post->date }}</p>
                     </div>
                     <hr>
                 @endforeach
