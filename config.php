@@ -4,7 +4,13 @@ return [
     'baseUrl' => '',
     'production' => false,
 
-    'collections' => ['posts'],
+
+    'collections' => [
+        // Posts collection sorted by date and in descending order (latest post at the top)
+        'posts' => [
+            'sort' => '-date'
+        ]
+    ],
 
     // Number of collection items to show per page
     'perPage' => 5,

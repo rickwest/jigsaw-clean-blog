@@ -13,7 +13,7 @@
                     <div class="post-heading">
                         <h1>{{ $page->title }}</h1>
                         <h2 class="subheading">{{ $page->subtitle }}</h2>
-                        <span class="meta">Posted by {{ $page->author }} on {{ $page->date }}</span>
+                        <span class="meta">Posted on {{ date('F jS, Y', $page->date) }}</span>
                     </div>
                 </div>
             </div>

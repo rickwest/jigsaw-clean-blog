@@ -38,7 +38,7 @@ pagination:
                                 {{ $post->subtitle }}
                             </h3>
                         </a>
-                        <p class="post-meta">Posted on {{ $post->date }}</p>
+                        <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}</p>
                     </div>
                     <hr>
                 @endforeach
