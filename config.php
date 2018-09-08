@@ -29,7 +29,7 @@ return [
         ],
         'facebook' => [
             'link' => '',
-            'icon' => 'fab fa-twitter',
+            'icon' => 'fab fa-facebook',
         ],
         'medium' => [
             'link' => '',
