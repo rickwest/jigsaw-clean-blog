@@ -16923,7 +16923,7 @@ Popper.Utils = (typeof window !== 'undefined' ? window : global).PopperUtils;
 Popper.placements = placements;
 Popper.Defaults = Defaults;
 
-/* harmony default export */ __webpack_exports__["default"] = (Popper);
+/* unused harmony default export */ var _unused_webpack_default_export = (Popper);
 //# sourceMappingURL=popper.js.map
 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/global.js")))
