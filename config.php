@@ -16,7 +16,7 @@ return [
     'perPage' => 5,
 
     // The email address to send the https://formspree.io/ contact form submissions to
-    'email' => 'rickwestdev@gmail.com',
+    'email' => '',
 
     // The name of the site. This is used in the nav and footer
     'siteName' => 'Jigsaw Clean Blog',
@@ -24,15 +24,19 @@ return [
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
         'twitter' => [
-            'link' => 'https://twitter.com/rick_west8',
+            'link' => '',
+            'icon' => 'fab fa-twitter',
+        ],
+        'facebook' => [
+            'link' => '',
             'icon' => 'fab fa-twitter',
         ],
         'medium' => [
-            'link' => 'https://medium.com/@rickwest8 ',
+            'link' => '',
             'icon' => 'fab fa-medium',
         ],
         'github' => [
-            'link' => 'https://github.com/rickwest',
+            'link' => '',
             'icon' => 'fab fa-github',
         ],
 //      'another social service' => [
