@@ -51,6 +51,7 @@
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
                     </div>
+                    <input type="text" name="_gotcha" style="display:none" />
                 </form>
             </div>
         </div>
