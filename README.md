@@ -10,7 +10,7 @@ To get started simply clone the repo by running the following command:
 
 ``` git clone https://github.com/rickwest/jigsaw-clean-blog.git ```
  
- Install the dependencies using Composer and Yarn:
+Install the dependencies using Composer and Yarn:
 ``` composer install ```  and ``` yarn install ```
 
 Once all the dependencies are installed, you can generate your site by running Jigsaw's build command from within your project root:
