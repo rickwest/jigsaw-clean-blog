@@ -24,19 +24,15 @@ return [
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
         'twitter' => [
-            'link' => '',
+            'link' => '#',
             'icon' => 'fab fa-twitter',
         ],
         'facebook' => [
-            'link' => '',
-            'icon' => 'fab fa-facebook',
-        ],
-        'medium' => [
-            'link' => '',
-            'icon' => 'fab fa-medium',
+            'link' => '#',
+            'icon' => 'fab fa-facebook-f',
         ],
         'github' => [
-            'link' => '',
+            'link' => '#',
             'icon' => 'fab fa-github',
         ],
 //      'another social service' => [
