@@ -21,14 +21,42 @@ Now you can serve the site using PHP ``` ./vendor/bin/jigsaw serve ``` or altern
 
 For more help getting started, you can find Jigsaws awesome documentation [here](https://jigsaw.tighten.co/docs/building-and-previewing/).
 
-### Customising your site
 
+### Customising your site config
 Anything you add to the array in ```config.php``` will be made available in all of your templates, as a property of the ```$page``` object.
 
 This project uses some of these site variables in several of the templates, for example, the ```siteName``` is used in both the header and footer.
 
 Quickly customise your site by adding your site name, email address and social media profiles ```in config.php```.
 
-### Adding Posts
 
+### Adding Posts
 You can get started adding content to your blog by renaming and modifying the content of ```demo-post.md``` in the ```_posts``` directory.
+
+Alternatively, you can simply delete ```demo-post.md``` and create a new markdown file following the structure below:
+```markdown
+
+---
+extends: _layouts.post
+image: /assets/images/post-bg.jpg
+title: post title
+subtitle: post subtitle
+date: 2018-09-09
+section: content
+---
+
+Add your awesome content here!
+
+```
+
+### Adding and Editing Pages
+Get started by editing the 'about' page, that comes with this project. Open up ```about.blade.php``` that's in the ```_source``` folder and add some interesting info about yourself!
+
+Adding a new page to your site is as simple as creating a new blade template in the ```_source``` directory.
+
+Jigsaw gives you access to all the templating features and control structures of Blade that are available in Laravel.
+
+The comprehensive, official blade documentation is available [here](https://laravel.com/docs/5.6/blade). 
+
+
+
