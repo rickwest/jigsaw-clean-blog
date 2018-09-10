@@ -1,6 +1,7 @@
 <?php
 
 return [
+    // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
     'baseUrl' => '',
     'production' => false,
 
