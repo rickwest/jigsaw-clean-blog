@@ -59,4 +59,7 @@ Jigsaw gives you access to all the templating features and control structures of
 The comprehensive, official blade documentation is available [here](https://laravel.com/docs/5.6/blade). 
 
 
+### Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/rickwest/jigsaw-clean-blog)
 
