@@ -8,3 +8,7 @@ section: content
 ---
 
 Some interesting content 😁. 
+
+```php
+echo 'Some interesting code.'
+```
