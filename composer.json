@@ -1,4 +1,14 @@
 {
+    "name": "rickwest/jigsaw-clean-blog",
+    "description": "Blog starter template for Jigsaw static site generator by Tighten",
+    "keywords": ["blog", "starter", "template", "jigsaw", "static", "site", "generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rick West",
+            "email": "rickwestdev@gmail.com"
+        }
+    ],
     "require": {
         "tightenco/jigsaw": "^1.2",
         "samdark/sitemap": "^2.2"
