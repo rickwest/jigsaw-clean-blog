@@ -4,7 +4,7 @@ title: Contact Me
 subtitle: Have questions? I have answers.
 ---
 
-@extends('_layout.page')
+@extends('_layouts.page')
 
 @section('content')
     <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>

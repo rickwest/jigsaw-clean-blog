@@ -5,7 +5,7 @@ title: 404
 subtitle: Page lost in space!
 ---
 
-@extends('_layout.page')
+@extends('_layouts.page')
 
 @section('content')
     <p>Looks like you've followed a broken link or entered a URL that doesn't exist on this site.</p>
