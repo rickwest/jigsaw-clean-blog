@@ -45,4 +45,7 @@ return [
 //          'icon' => 'font awesome icon https://fontawesome.com/icons?d=gallery&m=free',
 //      ]
     ],
+
+    // Google Analytics Tracking Id. For example, UA-123456789-1
+    'gaTrackingId' => '',
 ];
