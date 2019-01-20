@@ -7,7 +7,8 @@ subtitle: Have questions? I have answers.
 @extends('_layouts.page')
 
 @section('content')
-    <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+    <p>Static sites are unable to handle form submissions. However, there are third-party services, like <a href="https://formspree.io/" target="_blank">Formspree</a>, which can accept the form submission and email you the result.</p>
+    <p>To enable form submissions via Formspree, all you need to do is add your email address in <code>config.php</code>.</p>
     <form method="POST" action="https://formspree.io/{{ $page->email }}">
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
