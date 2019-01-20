@@ -17,7 +17,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>{{ $page->siteName }}</title>
+        <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+
+        @section('meta')
+        <!-- Search Engine -->
+        <meta name="description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
+        <!-- Schema.org for Google -->
+        <meta itemprop="name" content="{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}">
+        <meta itemprop="description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}">
+        <meta name="twitter:description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+        <meta name="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}">
+        <meta name="og:description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
+        <meta name="og:type" content="website">
+        @endsection
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
