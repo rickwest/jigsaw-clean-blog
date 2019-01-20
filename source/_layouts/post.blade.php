@@ -26,6 +26,9 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     @yield('content')
+                    <hr>
+                    @include('_partials/share')
+                    <hr>
                     @if ($page->getNext())
                         <p>Read my next post:
                             <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>

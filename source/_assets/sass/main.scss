@@ -11,3 +11,16 @@
 
 // Highlight.js theme
 @import '~highlight.js/styles/tomorrow-night-bright.css';
+
+// Custom colors for social share links
+.text-facebook, a.text-facebook:hover {
+  color: #4267b2;
+}
+
+.text-linkedin, a.text-linkedin:hover {
+  color: #0077b5;
+}
+
+.text-twitter, a.text-twitter:hover {
+  color: #1da1f2;
+}
