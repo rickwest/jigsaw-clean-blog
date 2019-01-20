@@ -25,6 +25,9 @@ return [
     // The description of the site. This is used in for the site's default metadata
     'siteDescription' => 'A Jigsaw implementation of a blog theme by Start Bootstrap',
 
+    // The name of the site Author. Your name! This is used when building the rss feed
+    'siteAuthor' => '',
+
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
         'twitter' => [
