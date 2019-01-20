@@ -3,7 +3,7 @@ pagination:
     collection: posts
 ---
 
-@extends('_layouts.page')
+@extends('_layout.page')
 
 @section('content')
     @foreach ($pagination->items as $post)
