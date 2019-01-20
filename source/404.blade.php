@@ -30,8 +30,6 @@ permalink: 404.html
         </div>
     </div>
 
-    <hr>
-
     <!-- Footer -->
     @include('_partials/footer')
 @endsection

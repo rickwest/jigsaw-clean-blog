@@ -16,8 +16,8 @@ pagination:
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>Jigsaw Clean Blog</h1>
-                        <span class="subheading">A Jigsaw implementation of a blog theme by Start Bootstrap</span>
+                        <h1>{{ $page->siteName }}</h1>
+                        <span class="subheading">{{ $page->siteDescription }}</span>
                     </div>
                 </div>
             </div>

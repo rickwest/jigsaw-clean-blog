@@ -22,6 +22,9 @@ return [
     // The name of the site. This is used in the nav and footer
     'siteName' => 'Jigsaw Clean Blog',
 
+    // The description of the site. This is used in for the site's default metadata
+    'siteDescription' => 'A Jigsaw implementation of a blog theme by Start Bootstrap',
+
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
         'twitter' => [
