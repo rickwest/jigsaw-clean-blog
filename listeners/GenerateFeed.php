@@ -14,7 +14,7 @@ class GenerateFeed
         $config = $jigsaw->getConfig();
 
         if (!$config['baseUrl']) {
-            echo("\nTo generate a sitemap.xml file, please specify a 'baseUrl' in config.php.\n\n");
+            echo("\nTo generate a rss.xml file, please specify a 'baseUrl' in config.php.\n\n");
             return;
         }
 
