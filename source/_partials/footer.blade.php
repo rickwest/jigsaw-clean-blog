@@ -14,7 +14,7 @@
                         </li>
                     @endforeach
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ $page->siteName }} 2018</p>
+                <p class="copyright text-muted">Copyright &copy; {{ $page->siteName }} <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
             </div>
         </div>
     </div>
