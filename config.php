@@ -23,7 +23,7 @@ return [
     'siteName' => 'Jigsaw Clean Blog',
 
     // The description of the site. This is used in for the site's default metadata
-    'siteDescription' => 'A Jigsaw implementation of a blog theme by Start Bootstrap',
+    'siteDescription' => 'Starter template for a blog, using Jigsaw by Tighten, based on the Start Bootstrap Clean Blog theme',
 
     // The name of the site Author. Your name! This is used when building the rss feed
     'siteAuthor' => '',
