@@ -16,4 +16,8 @@ use TightenCo\Jigsaw\Jigsaw;
  * });
  */
 
+// Generate sitemap listener
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
+
+// Generate rss feed listener
+$events->afterBuild(App\Listeners\GenerateFeed::class);

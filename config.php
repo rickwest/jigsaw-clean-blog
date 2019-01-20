@@ -36,6 +36,10 @@ return [
             'link' => '#',
             'icon' => 'fab fa-github',
         ],
+        'rss' => [
+            'link' => '/feed.xml',
+            'icon' => 'fas fa-rss',
+        ]
 //      'another social service' => [
 //          'link' => 'link to your account',
 //          'icon' => 'font awesome icon https://fontawesome.com/icons?d=gallery&m=free',

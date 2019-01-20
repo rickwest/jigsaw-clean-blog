@@ -11,7 +11,8 @@
     ],
     "require": {
         "tightenco/jigsaw": "^1.2",
-        "samdark/sitemap": "^2.2"
+        "samdark/sitemap": "^2.2",
+        "suin/php-rss-writer": "^1.6"
     },
     "autoload": {
         "psr-4": {
