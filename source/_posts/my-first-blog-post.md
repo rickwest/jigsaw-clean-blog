@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 title: My First Blog Post
-excerpt: This is the start of your first blog post.
+subtitle: Where the fun begins 😎! 
 date: 2018-09-09
 section: content
 ---

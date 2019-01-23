@@ -32,7 +32,7 @@
                     @if ($page->getNext())
                         <p>
                             <strong>
-                                Read my next post: <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
+                                Next post: <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
                             </strong>
                         </p>
                     @endif

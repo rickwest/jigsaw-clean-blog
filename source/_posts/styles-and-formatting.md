@@ -1,9 +1,9 @@
 ---
 extends: _layouts.post
 section: content
-title: Customizing Your Site
+title: Styles and Formatting
+subtitle: What some of the basic type styles will look like in this starter template
 date: 2019-01-20
-description: Customize your site with CSS and JS
 ---
 
 This starter template is based on the [Start Bootstrap Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) theme, which is built on top of  [Bootstrap 4](https://getbootstrap.com/), the world's most popular front-end component library.

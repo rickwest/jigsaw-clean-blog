@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: Getting Started
 date: 2019-01-21
-excerpt: Getting started with the Jigsaw blog starter template
+subtitle: Getting started with the Jigsaw Clean Blog starter template
 ---
 
 This is a starter template for creating a beautiful, customizable blog with minimal effort. You’ll only have to change a few settings and you’re ready to go.
@@ -27,7 +27,7 @@ return [
 
 ---
 
-### Adding Content
+## Adding Content
 
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/_posts/` folder.
 
@@ -44,7 +44,8 @@ image: /assets/images/post-bg.jpg
 ---
 ```
 
-### Adding Assets
+---
+## Adding Assets
 
 Any assets that need to be compiled (such as JavaScript, Less, or Sass files) can be added to the `source/_assets/` directory, and Laravel Mix will process them when running `yarn run local` or `yarn run production`. The processed assets will be stored in `/source/assets/build/` (note there is no underscore on this second `assets` directory).
 
