@@ -19,6 +19,8 @@
 
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
+        <link rel="icon" href="/favicon.ico">
+
         @section('meta')
         <!-- Search Engine -->
         <meta name="description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
