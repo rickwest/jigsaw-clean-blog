@@ -16,7 +16,7 @@ pagination:
                     {{ $post->excerpt ? $post->excerpt : $post->subtitle }}
                 </h3>
             </a>
-            <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}</p>
+            <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}@if($post->showReadingTime) &bull; {{ $post->readingTime($post) }}@endif</p>
         </div>
         <hr>
     @endforeach

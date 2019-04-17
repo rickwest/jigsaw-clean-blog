@@ -13,7 +13,7 @@
                     <div class="post-heading">
                         <h1>{{ $page->title }}</h1>
                         <h2 class="subheading">{{ $page->subtitle }}</h2>
-                        <span class="meta">Posted on {{ date('F jS, Y', $page->date) }}</span>
+                        <span class="meta">Posted on {{ date('F jS, Y', $page->date) }}@if($page->showReadingTime) &bull; {{ $page->readingTime($page) }}@endif</span>
                     </div>
                 </div>
             </div>

@@ -54,4 +54,12 @@ return [
 
     // Google Analytics Tracking Id. For example, UA-123456789-1
     'gaTrackingId' => '',
+
+    // True if you want to show a reading time (e.g 2 min read) or false to hide
+    'showReadingTime' => true,
+
+    'readingTime' => function($post) {
+        $mins = round(str_word_count(strip_tags($post)) / 200);
+        return implode('', array_fill(0, round($mins / 5),'☕')) . ' ' . $mins . ' min read';
+    }
 ];
