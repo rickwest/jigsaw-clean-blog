@@ -77,6 +77,8 @@ description: Getting started with the Jigsaw blog starter template
 image: /assets/images/post-bg.jpg
 ```
 
+---
+
 ### Adding and Editing Pages
 Get started by editing the 'about' page, that comes with this project. Open up ```about.blade.php``` that's in the ```_source``` folder and add some interesting info about yourself!
 
@@ -86,7 +88,9 @@ Jigsaw gives you access to all the templating features and control structures of
 
 The comprehensive, official blade documentation is available [here](https://laravel.com/docs/5.6/blade). 
 
-### Deploy to Netlify
+---
+
+## Deploy to Netlify
 
 If you just want to hit the ground running and deploy straight to [Netlify](https://www.netlify.com/) 👇🏻
 
