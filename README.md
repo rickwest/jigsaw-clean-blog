@@ -2,6 +2,8 @@
 
 Jigsaw Clean Blog, as the name suggests, is a simple [Jigsaw](https://jigsaw.tighten.co/) implementation of the [Startbootstrap Clean Blog theme](https://startbootstrap.com/template-overviews/clean-blog/). See the demo [here](https://jigsaw-clean-blog.netlify.com/).
 
+![Jigsaw Clean Blog Screenshot](./screenshot.png?raw=true "Jigsaw Clean Blog")
+
 ### System Requirements
 To use Jigsaw, you need to have PHP 7 and Composer installed on your machine. You'll also need Node.js, NPM and Yarn installed in order to use Laravel Mix to compile the CSS and Javascript.
 
