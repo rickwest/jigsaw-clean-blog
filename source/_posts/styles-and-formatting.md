@@ -3,6 +3,7 @@ extends: _layouts.post
 section: content
 title: Styles and Formatting
 subtitle: What some of the basic type styles will look like in this starter template
+excerpt: What some of the basic type styles will look like in this starter template
 date: 2019-01-20
 ---
 

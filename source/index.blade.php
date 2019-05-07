@@ -13,7 +13,7 @@ pagination:
                     {{ $post->title }}
                 </h2>
                 <h3 class="post-subtitle">
-                    {{ $post->excerpt ? $post->excerpt : $post->subtitle }}
+                    {{ $post->getExcerpt(125) }}
                 </h3>
             </a>
             <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}@if($post->showReadingTime) &bull; {{ $post->readingTime($post) }}@endif</p>
