@@ -1,8 +1,10 @@
-# Global settings applied to the whole site. See more info here: https://www.netlify.com/docs/netlify-toml-reference/
+# Global settings applied to the whole site.
+# See more info here: https://www.netlify.com/docs/netlify-toml-reference/
 
 [build]
   publish = "build_production"
   command = "yarn run production"
 
 [build.environment]
-  PHP_VERSION = "7.2"
+  NODE_VERSION = "14"
+  PHP_VERSION = "8.0"
