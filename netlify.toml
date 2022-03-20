@@ -3,7 +3,7 @@
 
 [build]
   publish = "build_production"
-  command = "yarn && composer install && yarn run production"
+  command = "yarn run production"
 
 [build.environment]
   NODE_VERSION = "14"
