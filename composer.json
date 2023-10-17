@@ -12,7 +12,7 @@
     "require": {
         "tightenco/jigsaw": "^1.7.1",
         "samdark/sitemap": "^2.4",
-        "suin/php-rss-writer": "^2.0"
+        "suin/php-rss-writer": "^1.6"
     },
     "autoload": {
         "psr-4": {
